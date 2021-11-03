@@ -1,0 +1,17 @@
+.habilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.habilities-card {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(60, 152, 233, 0.241);
+}
+h3 {
+  color: black;
+  text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+}

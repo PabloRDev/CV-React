@@ -1,0 +1,13 @@
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.education-card {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: rgba(60, 152, 233, 0.241);
+}
