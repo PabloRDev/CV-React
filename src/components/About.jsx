@@ -8,7 +8,8 @@ const About = ({ hero }) => {
         {hero.aboutMe.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <p>{item.info}</p>
+              <h2 className="info1">{item.info1}</h2>
+              <p className="info2">{item.info2}</p>
             </div>
           );
         })}

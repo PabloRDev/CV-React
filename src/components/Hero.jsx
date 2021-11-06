@@ -6,9 +6,9 @@ const Hero = ({ hero }) => {
     <div className="hero">
       <img src={hero.image} alt="" />
       <div className="card">
-        <h2>
+        <h1>
           {hero.name} {hero.lastName}
-        </h2>
+        </h1>
         <p>🗺️ {hero.location} </p>
         <p>
           📧

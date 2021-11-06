@@ -8,7 +8,7 @@ const Education = ({ education }) => {
         {education.map((item) => {
           return (
             <div key={JSON.stringify(item)}>
-              <p className="name">📕 {item.name}</p>
+              <h2 className="name">📕 {item.name}</h2>
               <p>{item.where}</p>
               <p>{item.date}</p>
             </div>
