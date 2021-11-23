@@ -11,10 +11,20 @@ const Hero = ({ hero }) => {
         </h1>
         <p>🗺️ {hero.location} </p>
         <p>
-          📧
-          <a href={"mailto:" + hero.email}>pabloriojod@gmail.com</a>
+          📧 <a href={"mailto:" + hero.email}>pabloriojod@gmail.com</a>
         </p>
-        <p>📱 {hero.phone}</p>
+        <p>
+          📱 <a href="tel:003463686107">{hero.phone}</a>
+        </p>
+        <p>
+          📁{" "}
+          <a href={hero.cv} target="_blank" rel="noreferrer">
+            Download my CV
+          </a>
+        </p>
+        <p>
+          💼 <a href={hero.linkedIn}>Linkedin</a>
+        </p>
         <p>
           💾 <a href={hero.gitHub}>GitHub</a>
         </p>

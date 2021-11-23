@@ -6,8 +6,9 @@ const Languages = ({ languages }) => {
     <div className="languages">
       <div className="languages-card">
         <h3>{languages.language}</h3>
-        <p>Written: {languages.wrlevel}</p>
-        <p>Spoken: {languages.splevel}</p>
+        <p>{languages.wrlevel} Professional level</p>
+        <h3>Spanish</h3>
+        <p>Native</p>
       </div>
     </div>
   );

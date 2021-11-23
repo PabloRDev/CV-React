@@ -11,12 +11,19 @@ const { hero, education, languages } = CV;
 
 function App() {
   return (
-    <div className="App">
-      <Hero hero={hero} />
-      <About hero={hero} />
-      <Education education={education} />
-      <Languages languages={languages} />
-    </div>
+    <>
+      <div className="App">
+        <Hero hero={hero} />
+        <About hero={hero} />
+        <Education education={education} />
+        <Languages languages={languages} />
+      </div>
+      <footer>
+        <p>
+          &copy; 2021, by <a href="https://github.com/PabloRDev"> PabloRDev</a>
+        </p>
+      </footer>
+    </>
   );
 }
 

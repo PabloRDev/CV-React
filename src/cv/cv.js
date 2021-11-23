@@ -6,15 +6,16 @@ export const CV = {
     location: "Madrid, España",
     email: "pabloriojod@gmail.com",
     phone: "(+34) 636 864 107",
+    cv: "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:8e5e34a7-c745-4971-81fc-0062bf7f4f7f",
     gitHub: "https://github.com/PabloRDev",
     linkedIn: "https://linkedin.com/in/pablo-riojo",
     aboutMe: [
       {
-        info1: "👨‍💻 Junior Software Developer",
+        description: "👨‍💻 Junior Software Developer || MEARN + PHP",
       },
       {
-        info2:
-          "React, Angular, Node JS, Express, Mongo DB, PHP, Symfony, Javascript, SCSS/CSS, HTML, GIT",
+        tecnhologies:
+          "ANGULAR, REACT / REDUX / JEST & ENZYME TESTING, NODE JS / EXPRESS, MONGO DB / MYSQL, PHP / SYMFONY, VANILLA JAVASCRIPT, CSS / SCSS / SASS / BOOTSTRAP, HTML, GIT / SCRUM",
       },
     ],
   },
